@@ -55,16 +55,16 @@
     padding:11px 20px; border-radius:100px; transition:opacity .15s ease;
   }
   .nav-cta:hover{opacity:0.85;}
-  @media(max-width:780px){
-    .nav-links{display:none;}
-    .nav-right .live-badge, .nav-right .nav-portal-link, .nav-right .nav-cta{display:none;}
-    .nav-toggle{display:flex;}
-  }
   .nav-toggle{
     display:none; align-items:center; justify-content:center;
     width:38px; height:38px; border:none; background:none; cursor:pointer; padding:0;
   }
   .nav-toggle svg{width:24px; height:24px; stroke:var(--ink);}
+  @media(max-width:780px){
+    .nav-links{display:none;}
+    .nav-right .live-badge, .nav-right .nav-portal-link, .nav-right .nav-cta{display:none;}
+    .nav-toggle{display:flex;}
+  }
   .mobile-menu{
     display:none; position:absolute; top:84px; left:0; right:0;
     background:#fff; border-bottom:1px solid var(--line);
